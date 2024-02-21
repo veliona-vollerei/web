@@ -1,0 +1,40 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.blank{
+    flex: 1;
+}
+.item{
+    margin-right: 10px;
+}
+.red{
+    background-color: brown;
+}
+.text-gray{
+    color:black;
+}
+#menu{
+    padding: 5px;
+    color: white;;
+}
+.row h1{
+    margin: 0;
+}
+#menuicon{
+width: 30px;
+}
+
+#homeicon{
+    width:10px ;
+}
+.fieldName{
+    width: 800px;
+    font-size: 20px;
+}
+.fieldInput{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #b3b1b1;
+    border-radius: 20px;
+}
