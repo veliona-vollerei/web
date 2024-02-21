@@ -1,0 +1,51 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+}
+.blank{
+    flex: 1;
+}
+.border{
+    border: 1px solid gray;
+}
+#left{
+    width: 250px;
+    height: 100vh;
+}
+#right{
+    flex: 1;
+    height: 100vh;
+
+}
+#veliona{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.text{
+    align-self: flex-start;
+    margin-left: 24px;
+    font-weight: 700;
+    margin-top: -11px;
+    font-size: 21px;
+}
+body{
+    margin: 0;
+}
+#logout{
+    margin-bottom: 23px;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 30px;
+}
+#filterSelect{
+        
+}

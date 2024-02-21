@@ -1,0 +1,31 @@
+*{
+    color: black;
+}
+body{
+    height: 100vh;
+}
+form{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    width: 302px;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-top: 30%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fieldName{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.ff{
+     margin-top: 10px;
+}
+.vv{
+    margin-bottom: 10px;
+}
